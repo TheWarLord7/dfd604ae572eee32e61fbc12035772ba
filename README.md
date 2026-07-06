@@ -13,4 +13,4 @@ Local LLM's Required:
 
 To Setup NVIDIA CUDA TOOLKIT follow this: https://markaicode.com/install-ollama-nvidia-gpu-cuda-support/
 
-If you have AMD GPU forget NVIDIA CUDA TOOLKIT and just intall ollama and models
+If you have AMD GPU forget NVIDIA CUDA TOOLKIT and just install ollama and models
