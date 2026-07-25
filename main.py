@@ -8,7 +8,7 @@ model = OllamaLLM(model='gemma4:e4b')
 context = ''
 
 def standardize_query(q):
-    model.invoke(f'''This is the query: "{q}"
+    return model.invoke(f'''This is the query: "{q}"
                  you have to standardize the query into this format: location, [deities]
                  where [deities] are the deities user has mentioned in the query and in formating are supposed to be separated by comma''')
 
