@@ -1,0 +1,12 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local environment secrets
+.env
+.env.*
+!.env.example
+
+# Editor / OS noise
+.vscode/
+.DS_Store
