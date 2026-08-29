@@ -1,0 +1,61 @@
+{
+    "/api/v1/": {
+        
+        "load_temples/": {
+            "output" : [
+                {
+                    "name": "string",
+                    "lat": "int",
+                    "long": "int"
+                }
+            ],
+
+            "input": null
+        },
+
+        "temple_data/": {
+            "output": {
+                "name": "string",
+                "desc": "string"
+            },
+
+            "input": null
+        },
+
+        "ask/": {
+            "input": {
+                "header": "Bearer <JWT Token>",
+                "body": {
+                    "query": "string",
+                    "uuid": "string"
+                }
+            },
+            "output": {
+                "success": "bool",
+                "message": "string"
+            }
+        },
+
+        "context/": {
+            "input": {
+                "body": {
+                    "uuid": "string"
+                }
+            },
+            "output": {
+                "context": "string"
+            }
+        }   
+    },
+
+    "/auth/v1/": {
+        "connect": {
+            "input": {
+                "body": {}
+            },
+            "output": {
+                "uuid": "string"
+            }
+        }
+    }
+}
